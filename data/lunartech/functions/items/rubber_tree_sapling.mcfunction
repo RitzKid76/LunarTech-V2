@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {Tags:["restrict"],Item:{id:"minecraft:armor_stand",Count:1b,tag:{display:{Name:'{"text":"Rubber Tree Sapling","color":"#B3A184","italic":false}'},CustomModelData:10000005,rubber_tree_sapling:1,EntityTag:{id:"minecraft:armor_stand",Invisible:1b,Tags:["spawn","spawnrubbertree"]}}}}

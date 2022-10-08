@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {Tags:["restrict"],Item:{id:"minecraft:command_block",Count:1b,tag:{display:{Name:'{"text":"Oxygenator Core","color":"#A1D0FF","italic":false}'},CustomModelData:10000118,oxygenator_core:1,float:1,BlockEntityTag:{id:"minecraft:command_block",Command:"setblock ~ ~ ~ air",auto:1b}}}}

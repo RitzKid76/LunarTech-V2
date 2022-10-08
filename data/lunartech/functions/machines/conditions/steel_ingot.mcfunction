@@ -1,0 +1,1 @@
+execute if entity @e[tag=!restrict,nbt={Item:{tag:{crucible:1}}},distance=..1] if entity @e[tag=!restrict,nbt={Item:{tag:{coal_coke:1}}},distance=..1,tag=!restrict] if entity @e[tag=!restrict,nbt={Item:{id:"minecraft:iron_ingot"}},distance=..1] run function lunartech:machines/recipes/steel_ingot

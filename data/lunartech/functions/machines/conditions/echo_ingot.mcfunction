@@ -1,0 +1,1 @@
+execute if entity @e[tag=!restrict,nbt={Item:{id:"minecraft:echo_shard"}},distance=..1,scores={count=8..}] run function lunartech:machines/recipes/echo_ingot

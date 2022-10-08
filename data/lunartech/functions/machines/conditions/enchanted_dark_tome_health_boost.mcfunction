@@ -1,0 +1,1 @@
+execute if entity @e[tag=!restrict,nbt={Item:{tag:{blank_dark_tome:1}}},distance=..1] if entity @e[tag=!restrict,nbt={Item:{tag:{crystal_apple:1}}},distance=..1,scores={count=4..}] if entity @e[tag=!restrict,nbt={Item:{tag:{lunar_metal_ingot:1}}},distance=..1,scores={count=4..}] run function lunartech:machines/recipes/enchanted_dark_tome_health_boost

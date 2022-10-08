@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {Tags:["restrict"],Item:{id:"minecraft:command_block",Count:1b,tag:{display:{Name:'{"text":"Coke Oven Brick","color":"#807266","italic":false}'},CustomModelData:10000082,coke_oven_brick:1,BlockEntityTag:{id:"minecraft:command_block",Command:"setblock ~ ~ ~ air",auto:1b}}}}

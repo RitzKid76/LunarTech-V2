@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {Tags:["restrict"],Item:{id:"minecraft:command_block",Count:1b,tag:{display:{Name:'{"text":"Advanced Circuit Board","color":"#F0C000","italic":false}'},CustomModelData:10000095,advanced_circuit_board:1,BlockEntityTag:{id:"minecraft:command_block",Command:"setblock ~ ~ ~ air",auto:1b}}}}

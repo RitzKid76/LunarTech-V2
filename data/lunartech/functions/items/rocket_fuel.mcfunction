@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {Tags:["restrict"],Item:{id:"minecraft:potion",Count:1b,tag:{display:{Name:'{"text":"Bottle of Rocket Fuel","color":"#D1986D","italic":false}'},HideFlags:127,bottle_of_rocket_fuel:1,CustomPotionColor:16744449}}}

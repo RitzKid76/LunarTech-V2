@@ -1,0 +1,23 @@
+{
+    "values":[
+        "minecraft:air",
+        "#lunartech:generation/lunar_soil",
+        "#lunartech:generation/mushroom",
+        "minecraft:sandstone",
+        "minecraft:smooth_sandstone",
+        "minecraft:sand",
+        "minecraft:cobblestone",
+        "minecraft:magma_block",
+        "minecraft:diorite",
+        "minecraft:deepslate_coal_ore",
+        "minecraft:coal_block",
+        "minecraft:obsidian",
+        "minecraft:polished_diorite",
+        "minecraft:iron_ore",
+        "minecraft:deepslate_gold_ore",
+        "minecraft:calcite",
+        "minecraft:smooth_quartz",
+        "minecraft:lava",
+        "minecraft:bedrock"
+    ]
+}

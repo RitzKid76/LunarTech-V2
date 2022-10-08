@@ -1,0 +1,1 @@
+execute if entity @e[tag=!restrict,nbt={Item:{tag:{blank_dark_tome:1}}},distance=..1] if entity @e[tag=!restrict,nbt={Item:{tag:{powder_snow_drum:1}}},distance=..1,scores={count=2..}] if entity @e[tag=!restrict,nbt={Item:{id:"minecraft:blue_ice"}},distance=..1,scores={count=6..}] run function lunartech:machines/recipes/enchanted_dark_tome_frozen

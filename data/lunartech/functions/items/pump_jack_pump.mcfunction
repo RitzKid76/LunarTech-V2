@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {Tags:["restrict"],Item:{id:"minecraft:potion",Count:1b,tag:{display:{Name:'{"text":"Bottle of Crude Oil","color":"#9C9C9C","italic":false}'},HideFlags:127,bottle_of_crude_oil:1,CustomPotionColor:3158064}}}

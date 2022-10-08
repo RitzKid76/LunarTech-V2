@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {Tags:["restrict"],Item:{id:"minecraft:command_block",Count:1b,tag:{display:{Name:'{"text":"Lunar Metal","color":"#BAA832","italic":false}'},CustomModelData:10000005,lunar_metal:1,float:1,BlockEntityTag:{id:"minecraft:command_block",Command:"setblock ~ ~ ~ air",auto:1b}}}}

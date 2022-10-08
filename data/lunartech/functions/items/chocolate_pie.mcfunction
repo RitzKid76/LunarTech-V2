@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {Tags:["restrict"],Item:{id:"minecraft:tropical_fish",Count:1b,tag:{display:{Name:'{"text":"Chocolate Pie","color":"#A67156","italic":false}',Lore:['{"text":"6 Hunger Points","color":"#A0A0A0","italic":false}','{"text":"Speed I - 0:30","color":"#53C5E8","italic":false}']},CustomModelData:10000010,chocolate_pie:1,LoreSlot:2}}}

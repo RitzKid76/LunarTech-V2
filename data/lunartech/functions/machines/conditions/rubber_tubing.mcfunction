@@ -1,0 +1,1 @@
+execute if entity @e[tag=!restrict,nbt={Item:{tag:{rubber_sheet:1}}},distance=..1,scores={count=6..}] run function lunartech:machines/recipes/rubber_tubing

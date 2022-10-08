@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {Tags:["restrict"],Item:{id:"minecraft:tropical_fish",Count:1b,tag:{display:{Name:'{"text":"Moon Fruit","color":"#B85C7A","italic":false}',Lore:['{"text":"1 Hunger Point","color":"#A0A0A0","italic":false}','{"text":"Regeneration I - 0:20","color":"#B56573","italic":false}']},CustomModelData:10000003,float:1,moon_fruit:1,LoreSlot:2}}}

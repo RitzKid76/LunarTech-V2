@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {Tags:["restrict"],Item:{id:"minecraft:potion",Count:1b,tag:{display:{Name:'{"text":"Bottle of LPG","color":"#859C9B","italic":false}'},HideFlags:127,bottle_of_lpg:1,CustomPotionColor:13426911}}}

@@ -1,0 +1,1 @@
+execute if entity @e[tag=!restrict,nbt={Item:{id:"minecraft:rotten_flesh"}},distance=..1] if entity @e[tag=!restrict,nbt={Item:{tag:{lunar_carrot:1}}},distance=..1,scores={count=2..}] if entity @e[tag=!restrict,nbt={Item:{tag:{moon_rock:1}}},distance=..1] run function lunartech:machines/recipes/moon_pie

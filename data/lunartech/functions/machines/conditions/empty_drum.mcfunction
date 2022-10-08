@@ -1,0 +1,1 @@
+execute if entity @e[tag=!restrict,nbt={Item:{id:"minecraft:iron_bars"}},distance=..1,scores={count=3..}] run function lunartech:machines/recipes/empty_drum

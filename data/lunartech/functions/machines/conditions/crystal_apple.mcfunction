@@ -1,0 +1,1 @@
+execute if entity @e[tag=!restrict,nbt={Item:{tag:{moon_fruit:1}}},distance=..1,scores={count=4..}] if entity @e[tag=!restrict,nbt={Item:{tag:{moon_shard:1}}},distance=..1] if entity @e[tag=!restrict,nbt={Item:{id:"minecraft:blaze_powder"}},distance=..1] run function lunartech:machines/recipes/crystal_apple

@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {Tags:["restrict"],Item:{id:"minecraft:potion",Count:1b,tag:{display:{Name:'{"text":"Bottle of Chemical Concoction","color":"#85BA77","italic":false}'},HideFlags:127,bottle_of_chemical_concoction:1,CustomPotionColor:8043111}}}

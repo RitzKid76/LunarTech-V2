@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {Tags:["restrict"],Item:{id:"minecraft:tropical_fish",Count:1b,tag:{display:{Name:'{"text":"Honey Glazed Ham","color":"#D2690C","italic":false}',Lore:['{"text":"7 Hunger Points","color":"#A0A0A0","italic":false}']},CustomModelData:10000011,honey_glazed_ham:1,LoreSlot:1}}}

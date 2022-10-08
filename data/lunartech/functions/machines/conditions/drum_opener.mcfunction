@@ -1,0 +1,1 @@
+execute if entity @e[tag=!restrict,nbt={Item:{id:"minecraft:iron_nugget"}},distance=..1] if entity @e[tag=!restrict,nbt={Item:{id:"minecraft:stick"}},distance=..1] run function lunartech:machines/recipes/drum_opener

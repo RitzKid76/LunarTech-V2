@@ -1,0 +1,81 @@
+{
+    "type": "minecraft:random_patch",
+    "config": {
+        "tries": 500,
+        "xz_spread": 7,
+        "y_spread": 1,
+        "feature": {
+            "feature": {
+                "type": "minecraft:simple_block",
+                "config": {
+                    "offset": [
+                        0,
+                        -1,
+                        0
+                    ],
+                    "to_place": {
+                        "type": "minecraft:weighted_state_provider",
+                        "entries": [
+                            {
+                                "data": {
+                                    "Name": "minecraft:stone"
+                                },
+                                "weight": 1
+                            },
+                            {
+                                "data": {
+                                    "Name": "minecraft:cobblestone"
+                                },
+                                "weight": 1
+                            },
+                            {
+                                "data": {
+                                    "Name": "minecraft:diorite"
+                                },
+                                "weight": 4
+                            },
+                            {
+                                "data": {
+                                    "Name": "minecraft:polished_diorite"
+                                },
+                                "weight": 3
+                            },
+                            {
+                                "data": {
+                                    "Name": "minecraft:calcite"
+                                },
+                                "weight": 3
+                            },
+                            {
+                                "data": {
+                                    "Name": "minecraft:smooth_quartz"
+                                },
+                                "weight": 3
+                            },
+                            {
+                                "data":{
+                                    "Name":"minecraft:iron_ore"
+                                },
+                                "weight":1
+                            }
+                        ]
+                    }
+                }
+            },
+            "placement": [
+                {
+                    "type": "minecraft:block_predicate_filter",
+                    "predicate": {
+                        "type": "minecraft:all_of",
+                        "predicates": [
+                            {
+                                "type": "minecraft:matching_blocks",
+                                "blocks": "minecraft:andesite"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

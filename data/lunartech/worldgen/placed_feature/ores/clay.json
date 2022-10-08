@@ -1,0 +1,19 @@
+{
+  "feature": "lunartech:ores/clay",
+  "placement": [
+    {
+      "count": 1,
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "heightmap",
+      "heightmap": "WORLD_SURFACE"
+    }
+  ]
+}

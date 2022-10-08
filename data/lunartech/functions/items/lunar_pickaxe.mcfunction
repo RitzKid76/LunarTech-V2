@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {Tags:["restrict"],Item:{id:"minecraft:iron_pickaxe",Count:1b,tag:{display:{Name:'{"text":"Lunar Pickaxe","color":"#9C9C9C","italic":false}'},HideFlags:1,Enchantments:[{id:"minecraft:efficiency",lvl:2s}],lunar_pickaxe:1,float:1}}}

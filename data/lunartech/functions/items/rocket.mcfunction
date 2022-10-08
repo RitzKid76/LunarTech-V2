@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {Tags:["restrict"],Item:{id:"minecraft:armor_stand",Count:1b,tag:{display:{Name:'{"text":"Rocket","color":"#93A5AB","italic":false}'},rocket:1,EntityTag:{id:"minecraft:armor_stand",Invisible:1b,Tags:["spawn","spawnrocket"]},CustomModelData:10000012}}}

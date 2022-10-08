@@ -1,0 +1,1 @@
+execute if entity @e[tag=!restrict,nbt={Item:{tag:{air_canister:1}}},distance=..1,scores={count=6..}] run function lunartech:machines/recipes/oxygen_tank

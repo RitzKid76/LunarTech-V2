@@ -1,0 +1,1 @@
+execute if entity @e[tag=!restrict,nbt={Item:{id:"minecraft:stick"}},distance=..1,scores={count=2..}] if entity @e[tag=!restrict,nbt={Item:{id:"minecraft:copper_ingot"}},distance=..1,scores={count=3..}] run function lunartech:machines/recipes/spool_of_wire

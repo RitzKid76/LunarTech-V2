@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {Tags:["restrict"],Item:{id:"minecraft:tropical_fish",Count:1b,tag:{display:{Name:'{"text":"Phantom Steak","color":"#C9B2B1","italic":false}',Lore:['{"text":"9 Hunger Points","color":"#A0A0A0","italic":false}','{"text":"Night Vision - 2:00","color":"#6877A0","italic":false}']},CustomModelData:10000007,float:1,phantom_steak:1,LoreSlot:2}}}

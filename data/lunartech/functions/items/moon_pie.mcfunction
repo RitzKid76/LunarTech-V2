@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {Tags:["restrict"],Item:{id:"minecraft:tropical_fish",Count:1b,tag:{display:{Name:'{"text":"Moon Pie","color":"#BFA584","italic":false}',Lore:['{"text":"5 Hunger Points","color":"#A0A0A0","italic":false}','{"text":"Night Vision - 1:00","color":"#6877A0","italic":false}']},CustomModelData:10000004,float:1,moon_pie:1,LoreSlot:2}}}

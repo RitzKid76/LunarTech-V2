@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {Tags:["restrict"],Item:{id:"minecraft:potion",Count:1b,tag:{display:{Name:'{"text":"Bucket of Rubber Tree Sap","color":"#DFDFDF","italic":false}'},HideFlags:32,CustomModelData:10000001,bucket_of_rubber_tree_sap:1,global_item:1,Potion:"minecraft:empty",CustomPotionColor:16777215}}}

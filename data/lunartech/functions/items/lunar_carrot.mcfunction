@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {Tags:["restrict"],Item:{id:"minecraft:tropical_fish",Count:1b,tag:{display:{Name:'{"text":"Lunar Carrot","color":"#CC960E","italic":false}',Lore:['{"text":"2 Hunger Points","color":"#A0A0A0","italic":false}','{"text":"Night Vision - 0:30","color":"#6877A0","italic":false}']},CustomModelData:10000001,float:1,lunar_carrot:1,LoreSlot:2}}}

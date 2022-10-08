@@ -1,0 +1,80 @@
+{
+    "depth": 0,
+    "scale": 1,
+    "precipitation": "none",
+    "category": "none",
+    "temperature": 1,
+    "temperature_modifyer": "none",
+    "downfall": 0,
+    "player_spawn_friendly": true,
+    "creature_spawn_probability": 0,
+    "effects": {
+        "fog_color": 0,
+        "foliage_color": 3193611,
+        "sky_color": 0,
+        "water_color": 3757759,
+        "water_fog_color": 3757759,
+        "grass_color": 5884220,
+        "grass_color_modifier": "none",
+        "particle": {
+            "options": {
+                "type": "minecraft:white_ash"
+            },
+            "probability": 0.01
+        }
+    },
+    "carvers": {
+        "air": []
+    },
+    "features": [
+        [],
+        [],
+        [
+            "lunartech:biome_blending/white",
+            "lunartech:sandy_hills/stone_scatter",
+            "lunartech:ores/moon_rock",
+            "lunartech:ores/moon_crystal",
+            "lunartech:ores/moon_shard",
+            "lunartech:ores/spaceship_debris",
+            "lunartech:ores/lunar_metal",
+            "minecraft:ore_coal_upper",
+            "minecraft:ore_coal_lower",
+            "minecraft:ore_iron_upper",
+            "minecraft:ore_iron_middle",
+            "minecraft:ore_iron_small"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+            "lunartech:sandy_hills/dead_vegetation"
+        ],
+        []
+    ],
+    "spawners": {
+        "monster": [
+            {
+                "type": "minecraft:skeleton",
+                "weight": 100,
+                "minCount": 1,
+                "maxCount": 3
+            },
+            {
+                "type": "minecraft:husk",
+                "weight": 100,
+                "minCount": 1,
+                "maxCount": 3
+            },
+            {
+                "type": "minecraft:bat",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            }
+        ]
+    },
+    "spawn_costs": {}
+}

@@ -1,0 +1,93 @@
+{
+    "depth": 0,
+    "scale": 1,
+    "precipitation": "none",
+    "category": "none",
+    "temperature": 1,
+    "temperature_modifyer": "none",
+    "downfall": 0,
+    "player_spawn_friendly": true,
+    "creature_spawn_probability": 0,
+    "effects": {
+        "fog_color": 0,
+        "foliage_color": 3193611,
+        "sky_color": 0,
+        "water_color": 3757759,
+        "water_fog_color": 3757759,
+        "grass_color": 5884220,
+        "grass_color_modifier": "none",
+        "particle": {
+            "options": {
+                "type": "minecraft:ash"
+            },
+            "probability": 0.02
+        }
+    },
+    "carvers": {
+        "air": [
+            "minecraft:canyon",
+            "minecraft:cave_extra_underground",
+            "minecraft:cave"
+        ]
+    },
+    "features": [
+        [],
+        [],
+        [
+            "lunartech:biome_blending/black",
+            "lunartech:ores/moon_rock",
+            "lunartech:ores/moon_crystal",
+            "lunartech:ores/moon_shard",
+            "lunartech:ores/spaceship_debris",
+            "lunartech:ores/lunar_metal",
+            "minecraft:ore_coal_upper",
+            "minecraft:ore_coal_lower",
+            "minecraft:ore_iron_upper",
+            "minecraft:ore_iron_middle",
+            "minecraft:ore_iron_small"
+        ],
+        [
+            "lunartech:ores/blackstone_chunk"
+        ],
+        [
+            "lunartech:ores/blackstone_chunk"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+            "lunartech:midnight_mountains/stone_scatter"
+        ],
+        []
+    ],
+    "spawners": {
+        "monster": [
+            {
+                "type": "minecraft:phantom",
+                "weight": 20,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:wither_skeleton",
+                "weight": 120,
+                "minCount": 1,
+                "maxCount": 5
+            },
+            {
+                "type": "minecraft:enderman",
+                "weight": 150,
+                "minCount": 1,
+                "maxCount": 5
+            },
+            {
+                "type": "minecraft:bat",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            }
+        ]
+    },
+    "spawn_costs": {}
+}

@@ -1,0 +1,1 @@
+execute if entity @e[tag=!restrict,nbt={Item:{tag:{bottle_of_lpg:1}}},distance=..1,tag=!restrict] run function lunartech:machines/recipes/lpg_drum

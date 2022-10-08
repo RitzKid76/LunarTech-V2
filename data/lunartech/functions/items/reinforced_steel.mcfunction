@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {Tags:["restrict"],Item:{id:"minecraft:iron_bars",Count:1b,tag:{display:{Name:'{"text":"Reinforced Steel","color":"#A0A0A0","italic":false}'},Enchantments:[{}],reinforced_steel:1}}}

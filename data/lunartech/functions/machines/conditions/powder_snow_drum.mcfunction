@@ -1,0 +1,1 @@
+execute if entity @e[tag=!restrict,nbt={Item:{id:"minecraft:powder_snow_bucket"}},distance=..1,tag=!restrict] run function lunartech:machines/recipes/powder_snow_drum

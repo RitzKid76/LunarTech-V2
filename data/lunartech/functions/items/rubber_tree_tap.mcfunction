@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {Tags:["restrict"],Item:{id:"minecraft:armor_stand",Count:1b,tag:{display:{Name:'{"text":"Rubber Tree Tap","color":"#B0906B","italic":false}'},CustomModelData:10000007,rubber_tree_tap:1,EntityTag:{id:"minecraft:armor_stand",Invisible:1b,Tags:["spawn","spawntreetap"]}}}}

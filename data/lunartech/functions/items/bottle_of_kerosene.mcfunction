@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {Tags:["restrict"],Item:{id:"minecraft:potion",Count:1b,tag:{display:{Name:'{"text":"Bottle of Kerosene","color":"#7073B3","italic":false}'},HideFlags:127,bottle_of_kerosene:1,CustomPotionColor:8563967}}}
