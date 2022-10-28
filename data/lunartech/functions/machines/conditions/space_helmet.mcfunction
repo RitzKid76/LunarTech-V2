@@ -1,1 +1,0 @@
-execute if entity @e[tag=!restrict,nbt={Item:{id:"minecraft:glass"}},distance=..1,scores={count=4..}] if entity @e[tag=!restrict,nbt={Item:{tag:{steel_helmet:1}}},distance=..1] run function lunartech:machines/recipes/space_helmet

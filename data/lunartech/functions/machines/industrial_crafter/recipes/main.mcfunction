@@ -1,0 +1,45 @@
+#region DOCUMENTATION
+#from machines/industrial_crafter/main
+#as @s[tag=snapped_item,tag=!restrict]
+#at @s
+#endregion
+
+execute if entity @s[nbt={Item:{tag:{drum_opener:1}}}] run function lunartech:machines/industrial_crafter/recipes/groups/drum_opener
+execute if entity @s[nbt={Item:{tag:{empty_drum:1}}}] run function lunartech:machines/industrial_crafter/recipes/groups/empty_drum
+execute if entity @s[nbt={Item:{tag:{simple_machine_frame:1}}}] run function lunartech:machines/industrial_crafter/recipes/groups/simple_machine_frame
+execute if entity @s[nbt={Item:{tag:{steel_sheet:1}}}] run function lunartech:machines/industrial_crafter/recipes/groups/steel_sheet
+execute if entity @s[nbt={Item:{tag:{empty_module:1}}}] run function lunartech:machines/industrial_crafter/recipes/groups/empty_module
+execute if entity @s[nbt={Item:{tag:{blank_dark_tome:1}}}] run function lunartech:machines/industrial_crafter/recipes/groups/blank_dark_tome
+
+execute if entity @s[nbt={Item:{id:"minecraft:chain"}},scores={count=4..}] run function lunartech:machines/recipes/chainsaw
+execute if entity @s[nbt={Item:{id:"minecraft:chain"}},scores={count=4..}] run function lunartech:machines/recipes/diamond_gear
+execute if entity @s[nbt={Item:{id:"minecraft:chain"}},scores={count=2..}] run function lunartech:machines/recipes/pump_jack
+
+execute if entity @s[nbt={Item:{tag:{iron_sheet:1}}},scores={count=2..}] run function lunartech:machines/recipes/empty_canister
+execute if entity @s[nbt={Item:{tag:{iron_sheet:1}}},scores={count=6..}] run function lunartech:machines/recipes/empty_drum
+execute if entity @s[nbt={Item:{tag:{iron_sheet:1}}},scores={count=4..}] run function lunartech:machines/recipes/simple_machine_frame
+
+execute if entity @s[nbt={Item:{tag:{bottle_of_gasoline:1}}}] run function lunartech:machines/recipes/bottle_of_chemical_concoction
+
+execute if entity @s[nbt={Item:{tag:{steel_ingot:1}}}] run function lunartech:machines/recipes/echo_ingot
+execute if entity @s[nbt={Item:{tag:{steel_ingot:1}}},scores={count=5..}] run function lunartech:machines/recipes/steel_anchor
+
+execute if entity @s[nbt={Item:{tag:{rubber_sheet:1}}},scores={count=4..}] run function lunartech:machines/recipes/spool_of_wire
+execute if entity @s[nbt={Item:{tag:{copper_sheet:1}}},scores={count=3..}] run function lunartech:machines/recipes/circuit_board
+execute if entity @s[nbt={Item:{tag:{coke_oven_brick:1}}},scores={count=64..}] run function lunartech:machines/recipes/coke_oven
+execute if entity @s[nbt={Item:{tag:{heavy_steel_sheet:1}}},scores={count=2..}] run function lunartech:machines/recipes/rocket
+execute if entity @s[nbt={Item:{tag:{spaceship_debris:1}}},scores={count=8..}] run function lunartech:machines/recipes/lunar_tech
+execute if entity @s[nbt={Item:{tag:{diamond_gear:1}}},scores={count=4..}] run function lunartech:machines/recipes/quarry_speed_upgrade
+execute if entity @s[nbt={Item:{tag:{bottle_of_creosote_oil:1}}}] run function lunartech:machines/recipes/rubber_sheet
+execute if entity @s[nbt={Item:{id:"minecraft:glass"}},scores={count=4..}] run function lunartech:machines/recipes/space_helmet
+execute if entity @s[nbt={Item:{id:"minecraft:white_wool"}},scores={count=4..}] run function lunartech:machines/recipes/space_boots
+execute if entity @s[nbt={Item:{id:"minecraft:observer"}}] run function lunartech:machines/recipes/advanced_circuit_board
+execute if entity @s[nbt={Item:{id:"minecraft:clay_ball"}},scores={count=2..}] run function lunartech:machines/recipes/coke_oven_brick
+execute if entity @s[nbt={Item:{id:"minecraft:enchanting_table"}}] run function lunartech:machines/recipes/dark_enchanter
+execute if entity @s[nbt={Item:{id:"minecraft:iron_ingot"}},scores={count=4..}] run function lunartech:machines/recipes/drum_opener
+execute if entity @s[nbt={Item:{id:"minecraft:iron_block"}},scores={count=2..}] run function lunartech:machines/recipes/metal_press
+execute if entity @s[nbt={Item:{id:"minecraft:slime_ball"}}] run function lunartech:machines/recipes/rubber_ball
+execute if entity @s[nbt={Item:{id:"minecraft:iron_nugget"}}] run function lunartech:machines/recipes/rubber_tree_tap
+execute if entity @s[nbt={Item:{id:"minecraft:string"}},scores={count=3..}] run function lunartech:machines/recipes/rubber_tubing
+execute if entity @s[nbt={Item:{id:"minecraft:redstone_torch"}}] run function lunartech:machines/recipes/quarry_marker
+execute if entity @s[nbt={Item:{id:"minecraft:coal_block"}}] run function lunartech:machines/recipes/rocket_fuel

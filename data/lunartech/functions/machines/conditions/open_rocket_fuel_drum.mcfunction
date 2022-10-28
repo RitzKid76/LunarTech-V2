@@ -1,1 +1,0 @@
-execute if entity @e[tag=!restrict,nbt={Item:{tag:{rocket_fuel_drum:1}}},distance=..1,tag=!restrict] run function lunartech:machines/recipes/open_rocket_fuel_drum

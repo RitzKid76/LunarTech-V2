@@ -4,14 +4,14 @@
 #at @s
 #endregion
 
-function lunartech:machines/conditions/open_chemical_concoction_drum
-function lunartech:machines/conditions/open_creosote_oil_drum
-function lunartech:machines/conditions/open_crude_oil_drum
-function lunartech:machines/conditions/open_gasoline_drum
-function lunartech:machines/conditions/open_kerosene_drum
-function lunartech:machines/conditions/open_lava_drum
-function lunartech:machines/conditions/open_lpg_drum
-function lunartech:machines/conditions/open_milk_drum
-function lunartech:machines/conditions/open_powder_snow_drum
-function lunartech:machines/conditions/open_rocket_fuel_drum
-function lunartech:machines/conditions/open_water_drum
+function lunartech:machines/recipes/open_chemical_concoction_drum
+function lunartech:machines/recipes/open_creosote_oil_drum
+function lunartech:machines/recipes/open_crude_oil_drum
+function lunartech:machines/recipes/open_gasoline_drum
+function lunartech:machines/recipes/open_kerosene_drum
+function lunartech:machines/recipes/open_lava_drum
+function lunartech:machines/recipes/open_lpg_drum
+function lunartech:machines/recipes/open_milk_drum
+function lunartech:machines/recipes/open_powder_snow_drum
+function lunartech:machines/recipes/open_rocket_fuel_drum
+function lunartech:machines/recipes/open_water_drum

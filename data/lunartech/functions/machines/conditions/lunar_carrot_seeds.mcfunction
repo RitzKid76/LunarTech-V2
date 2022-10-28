@@ -1,1 +1,0 @@
-execute if entity @e[tag=!restrict,nbt={Item:{tag:{lunar_carrot:1}}},distance=..1,scores={count=3..}] if entity @e[tag=!restrict,nbt={Item:{tag:{lunar_metal:1}}},distance=..1] run function lunartech:machines/recipes/lunar_carrot_seeds

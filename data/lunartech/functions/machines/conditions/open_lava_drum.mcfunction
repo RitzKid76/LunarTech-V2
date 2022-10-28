@@ -1,1 +1,0 @@
-execute if entity @e[tag=!restrict,nbt={Item:{tag:{lava_drum:1}}},distance=..1,tag=!restrict] run function lunartech:machines/recipes/open_lava_drum

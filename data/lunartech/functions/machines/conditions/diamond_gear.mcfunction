@@ -1,1 +1,0 @@
-execute if entity @e[tag=!restrict,nbt={Item:{id:"minecraft:diamond"}},distance=..1,scores={count=4..}] if entity @e[tag=!restrict,nbt={Item:{id:"minecraft:quartz"}},distance=..1] run function lunartech:machines/recipes/diamond_gear

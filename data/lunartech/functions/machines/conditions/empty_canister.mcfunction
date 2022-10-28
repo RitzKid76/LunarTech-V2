@@ -1,1 +1,0 @@
-execute if entity @e[tag=!restrict,nbt={Item:{id:"minecraft:glass_pane"}},distance=..1] run function lunartech:machines/recipes/empty_canister
