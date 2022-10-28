@@ -6,6 +6,6 @@
 
 execute store result score powder_snow_bucket count if entity @e[tag=!restrict,nbt={Item:{tag:{powder_snow_bucket:1}}},distance=..1]
 
-execute if score powder_snow_bucket count matches 3.. run function lunartech:machines/outputs/powder_snow_drum
+execute if score powder_snow_bucket count matches 3.. run function lunartech:machines/industrial_crafter/outputs/powder_snow_drum
 
 scoreboard players reset powder_snow_bucket count

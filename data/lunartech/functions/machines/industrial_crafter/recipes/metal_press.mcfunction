@@ -4,4 +4,4 @@
 #at @s
 #endregion
 
-execute if entity @e[tag=!restrict,nbt={Item:{id:"minecraft:furnace"}},distance=..1] if entity @e[tag=!restrict,nbt={Item:{id:"minecraft:rail"}},distance=..1,scores={count=3..}] if entity @e[tag=!restrict,nbt={Item:{id:"minecraft:piston"}},distance=..1] if entity @e[tag=!restrict,nbt={Item:{id:"minecraft:repeater"}},distance=..1,scores={count=2..}] run function lunartech:machines/outputs/metal_press
+execute if entity @e[tag=!restrict,nbt={Item:{id:"minecraft:furnace"}},distance=..1] if entity @e[tag=!restrict,nbt={Item:{id:"minecraft:rail"}},distance=..1,scores={count=3..}] if entity @e[tag=!restrict,nbt={Item:{id:"minecraft:piston"}},distance=..1] if entity @e[tag=!restrict,nbt={Item:{id:"minecraft:repeater"}},distance=..1,scores={count=2..}] run function lunartech:machines/industrial_crafter/outputs/metal_press

@@ -1,11 +1,13 @@
 #region DOCUMENTATION
-#from machines/industrial_crafter/recipes/groups/empty_drum
+#from machines/industrial_crafter/recipes/rocket_fuel_drum
 #as @s[nbt={Item:{tag:{empty_drum:1}}}]
 #at @s
 #endregion
 
-execute store result score bottle_of_rocket_fuel count if entity @e[tag=!restrict,nbt={Item:{tag:{bottle_of_rocket_fuel:1}}},distance=..1]
+tag @s add one
 
-execute if score bottle_of_rocket_fuel count matches 3.. run function lunartech:machines/outputs/rocket_fuel_drum
+tag @e[tag=!restrict,nbt={Item:{tag:{bottle_of_rocket_fuel:1}}},distance=..1,limit=3] add one
 
-scoreboard players reset bottle_of_rocket_fuel count
+function lunartech:items/rocket_fuel_drum
+
+function lunartech:machines/craft_item

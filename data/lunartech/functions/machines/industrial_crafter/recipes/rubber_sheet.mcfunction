@@ -4,4 +4,4 @@
 #at @s
 #endregion
 
-execute if entity @e[tag=!restrict,nbt={Item:{tag:{raw_rubber_sheet:1}}},distance=..1,scores={count=8..}] run function lunartech:machines/outputs/rubber_sheet
+execute if entity @e[tag=!restrict,nbt={Item:{tag:{raw_rubber_sheet:1}}},distance=..1,scores={count=8..}] run function lunartech:machines/industrial_crafter/outputs/rubber_sheet

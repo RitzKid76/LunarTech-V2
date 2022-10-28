@@ -4,4 +4,4 @@
 #at @s
 #endregion
 
-execute if entity @e[tag=!restrict,nbt={Item:{id:"minecraft:iron_boots"}},distance=..1] run function lunartech:machines/outputs/steel_boots
+execute if entity @e[tag=!restrict,nbt={Item:{id:"minecraft:iron_boots"}},distance=..1] run function lunartech:machines/industrial_crafter/outputs/steel_boots

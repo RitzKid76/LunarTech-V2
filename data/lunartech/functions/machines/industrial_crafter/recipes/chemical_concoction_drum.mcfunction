@@ -6,6 +6,6 @@
 
 execute store result score bottle_of_chemical_concoction count if entity @e[tag=!restrict,nbt={Item:{tag:{bottle_of_chemical_concoction:1}}},distance=..1]
 
-execute if score bottle_of_chemical_concoction count matches 3.. run function lunartech:machines/outputs/chemical_concoction_drum
+execute if score bottle_of_chemical_concoction count matches 3.. run function lunartech:machines/industrial_crafter/outputs/chemical_concoction_drum
 
 scoreboard players reset bottle_of_chemical_concoction count

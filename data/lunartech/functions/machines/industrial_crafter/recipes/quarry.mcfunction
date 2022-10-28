@@ -4,4 +4,4 @@
 #at @s
 #endregion
 
-execute if entity @e[tag=!restrict,nbt={Item:{tag:{advanced_machine_frame:1}}},distance=..1] if entity @e[tag=!restrict,nbt={Item:{tag:{diamond_gear:1}}},distance=..1,scores={count=2..}] if entity @e[tag=!restrict,nbt={Item:{id:"minecraft:diamond_pickaxe"}},distance=..1] run function lunartech:machines/outputs/quarry
+execute if entity @e[tag=!restrict,nbt={Item:{tag:{advanced_machine_frame:1}}},distance=..1] if entity @e[tag=!restrict,nbt={Item:{tag:{diamond_gear:1}}},distance=..1,scores={count=2..}] if entity @e[tag=!restrict,nbt={Item:{id:"minecraft:diamond_pickaxe"}},distance=..1] run function lunartech:machines/industrial_crafter/outputs/quarry

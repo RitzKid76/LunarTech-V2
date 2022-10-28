@@ -4,4 +4,4 @@
 #at @s
 #endregion
 
-execute if entity @e[tag=!restrict,nbt={Item:{id:"minecraft:glass_pane"}},distance=..1] run function lunartech:machines/outputs/empty_canister
+execute if entity @e[tag=!restrict,nbt={Item:{id:"minecraft:glass_pane"}},distance=..1] run function lunartech:machines/industrial_crafter/outputs/empty_canister

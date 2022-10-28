@@ -6,6 +6,6 @@
 
 execute store result score bottle_of_creosote_oil count if entity @e[tag=!restrict,nbt={Item:{tag:{bottle_of_creosote_oil:1}}},distance=..1]
 
-execute if score bottle_of_creosote_oil count matches 3.. run function lunartech:machines/outputs/creosote_oil_drum
+execute if score bottle_of_creosote_oil count matches 3.. run function lunartech:machines/industrial_crafter/outputs/creosote_oil_drum
 
 scoreboard players reset bottle_of_creosote_oil count
