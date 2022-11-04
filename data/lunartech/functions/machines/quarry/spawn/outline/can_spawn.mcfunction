@@ -1,0 +1,26 @@
+#from machines/quarry/spawn/outline/particles
+#as @e[tag=machine_spawn_raycast]
+#at @s
+
+function lunartech:machines/particle_raycast/machine_center_particle_can_spawn
+
+execute if entity @s[tag=Z] run particle minecraft:dust .68 .71 .72 .7 ~ ~ ~-.5 .84 0 0 0 8 normal @a
+execute if entity @s[tag=Z] run particle minecraft:dust .68 .71 .72 .7 ~ ~ ~.5 .84 0 0 0 8 normal @a
+execute if entity @s[tag=Z] run particle minecraft:dust .68 .71 .72 .7 ~-1.5 ~ ~ 0 0 .18 0 8 normal @a
+execute if entity @s[tag=Z] run particle minecraft:dust .68 .71 .72 .7 ~1.5 ~ ~ 0 0 .18 0 8 normal @a
+
+execute if entity @s[tag=Z] run particle minecraft:dust .68 .71 .72 0.5 ~-1.5 ~ ~-.5 0 1 0 0 8 normal @a
+execute if entity @s[tag=Z] run particle minecraft:dust .68 .71 .72 0.5 ~-1.5 ~ ~.5 0 1 0 0 8 normal @a
+execute if entity @s[tag=Z] run particle minecraft:dust .68 .71 .72 0.5 ~1.5 ~ ~-.5 0 1 0 0 8 normal @a
+execute if entity @s[tag=Z] run particle minecraft:dust .68 .71 .72 0.5 ~1.5 ~ ~.5 0 1 0 0 8 normal @a
+
+
+execute if entity @s[tag=X] run particle minecraft:dust .68 .71 .72 .7 ~ ~ ~-1.5 .18 0 0 0 8 normal @a
+execute if entity @s[tag=X] run particle minecraft:dust .68 .71 .72 .7 ~ ~ ~1.5 .18 0 0 0 8 normal @a
+execute if entity @s[tag=X] run particle minecraft:dust .68 .71 .72 .7 ~-.5 ~ ~ 0 0 .84 0 8 normal @a
+execute if entity @s[tag=X] run particle minecraft:dust .68 .71 .72 .7 ~.5 ~ ~ 0 0 .84 0 8 normal @a
+
+execute if entity @s[tag=X] run particle minecraft:dust .68 .71 .72 0.5 ~-.5 ~ ~-1.5 0 1 0 0 8 normal @a
+execute if entity @s[tag=X] run particle minecraft:dust .68 .71 .72 0.5 ~-.5 ~ ~1.5 0 1 0 0 8 normal @a
+execute if entity @s[tag=X] run particle minecraft:dust .68 .71 .72 0.5 ~.5 ~ ~-1.5 0 1 0 0 8 normal @a
+execute if entity @s[tag=X] run particle minecraft:dust .68 .71 .72 0.5 ~.5 ~ ~1.5 0 1 0 0 8 normal @a
