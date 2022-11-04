@@ -9,5 +9,3 @@ execute if score @s[tag=Z+] count matches 15 run function lunartech:machines/pum
 execute if score @s[tag=X-] count matches 15 run function lunartech:machines/pump_jack/spawn/xn
 execute if score @s[tag=X+] count matches 15 run function lunartech:machines/pump_jack/spawn/xp
 execute unless score @s count matches 15 run function lunartech:items/pump_jack
-
-scoreboard players reset @s count

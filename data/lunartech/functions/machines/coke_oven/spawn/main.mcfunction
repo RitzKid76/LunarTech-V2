@@ -9,5 +9,3 @@ execute if score @s[tag=Z+] count matches 60 run function lunartech:machines/cok
 execute if score @s[tag=X-] count matches 60 run function lunartech:machines/coke_oven/spawn/xn
 execute if score @s[tag=X+] count matches 60 run function lunartech:machines/coke_oven/spawn/xp
 execute unless score @s count matches 60 run function lunartech:items/coke_oven
-
-scoreboard players reset @s count

@@ -9,5 +9,3 @@ execute if score @s[tag=Z+] count matches 24 run function lunartech:machines/air
 execute if score @s[tag=X-] count matches 24 run function lunartech:machines/air_compressor/spawn/xn
 execute if score @s[tag=X+] count matches 24 run function lunartech:machines/air_compressor/spawn/xp
 execute unless score @s count matches 24 run function lunartech:items/air_compressor
-
-scoreboard players reset @s count

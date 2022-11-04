@@ -6,5 +6,3 @@ function lunartech:machines/metal_press/count_volume
 
 execute if score @s count matches 27 run function lunartech:machines/metal_press/spawn/outline/can_spawn
 execute unless score @s count matches 27 run function lunartech:machines/metal_press/spawn/outline/cant_spawn
-
-scoreboard players reset @s count
