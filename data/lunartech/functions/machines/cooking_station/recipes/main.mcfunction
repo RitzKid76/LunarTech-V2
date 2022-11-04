@@ -1,20 +1,18 @@
-#region DOCUMENTATION
 #from machines/cooking_station/main
 #as @s[tag=snapped_item,tag=!restrict]
 #at @s
-#endregion
 
-execute if entity @s run function lunartech:machines/conditions/apple_pie
-execute if entity @s run function lunartech:machines/conditions/chocolate_milkshake
-execute if entity @s run function lunartech:machines/conditions/chocolate_pie
-execute if entity @s run function lunartech:machines/conditions/crystal_apple
-execute if entity @s run function lunartech:machines/conditions/honey_glazed_ham
-execute if entity @s run function lunartech:machines/conditions/lunar_berry_seeds
-execute if entity @s run function lunartech:machines/conditions/lunar_carrot_seeds
-execute if entity @s run function lunartech:machines/conditions/moon_cracker
-execute if entity @s run function lunartech:machines/conditions/moon_fruit_smoothie
-execute if entity @s run function lunartech:machines/conditions/moon_jelly
-execute if entity @s run function lunartech:machines/conditions/moon_juice
-execute if entity @s run function lunartech:machines/conditions/moon_pie
-execute if entity @s run function lunartech:machines/conditions/phantom_steak
-execute if entity @s run function lunartech:machines/conditions/stellar_stew
+execute if entity @s[nbt={Item:{id:"minecraft:sugar"}}] run function lunartech:machines/cooking_station/recipes/groups/sugar
+
+execute if entity @s[nbt={Item:{id:"minecraft:porkchop"}},scores={count=2..}] run function lunartech:machines/cooking_station/recipes/honey_glazed_ham
+
+#function lunartech:machines/cooking_station/recipes/crystal_apple
+#function lunartech:machines/cooking_station/recipes/lunar_berry_seeds
+#function lunartech:machines/cooking_station/recipes/lunar_carrot_seeds
+#function lunartech:machines/cooking_station/recipes/moon_cracker
+#function lunartech:machines/cooking_station/recipes/moon_fruit_smoothie
+#function lunartech:machines/cooking_station/recipes/moon_jelly
+#function lunartech:machines/cooking_station/recipes/moon_juice
+#function lunartech:machines/cooking_station/recipes/moon_pie
+#function lunartech:machines/cooking_station/recipes/phantom_steak
+#function lunartech:machines/cooking_station/recipes/stellar_stew
