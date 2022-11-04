@@ -12,5 +12,6 @@ execute if entity @s[tag=spawn_molten_forge] run function lunartech:machines/mol
 execute if entity @s[tag=spawn_oxygenator] run function lunartech:machines/oxygenator/spawn/main
 execute if entity @s[tag=spawn_pump_jack] run function lunartech:machines/pump_jack/spawn/main
 execute if entity @s[tag=spawn_quarry] run function lunartech:machines/quarry/spawn/main
+execute if entity @s[tag=spawn_refinery] run function lunartech:machines/refinery/spawn/main
 
 kill @s 
