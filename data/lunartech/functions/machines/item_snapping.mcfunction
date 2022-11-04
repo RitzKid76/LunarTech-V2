@@ -1,8 +1,6 @@
-#region DOCUMENTATION
 #from machines/MACHINE/main
 #as @e[tag=MACHINE]
 #at @s
-#endregion
 
 execute as @e[type=item,distance=..1,tag=!snapped_item] run tp @s ~ ~.1 ~
 execute as @e[type=item,distance=..1,tag=!snapped_item] run data merge entity @s {Motion:[0d, 0d, 0d],NoGravity:1b}
