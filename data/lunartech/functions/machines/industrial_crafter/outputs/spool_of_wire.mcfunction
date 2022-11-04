@@ -1,8 +1,6 @@
-#region DOCUMENTATION
 #from machines/industrial_crafter/recipes/spool_of_wire
 #as @s[nbt={Item:{tag:{rubber_sheet:1}}}]
 #at @s
-#endregion
 
 tag @s add four
 

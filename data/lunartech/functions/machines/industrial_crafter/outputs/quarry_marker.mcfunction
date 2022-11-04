@@ -1,8 +1,6 @@
-#region DOCUMENTATION
 #from machines/industrial_crafter/recipes/quarry_marker
 #as @s[nbt={Item:{id:"minecraft:redstone_torch"}}]
 #at @s
-#endregion
 
 tag @s add one
 

@@ -1,8 +1,6 @@
-#region DOCUMENTATION
 #from machines/industrial_crafter/recipes/coke_oven_brick
 #as @s[nbt={Item:{id:"minecraft:clay_ball"}}]
 #at @s
-#endregion
 
 tag @s add two
 

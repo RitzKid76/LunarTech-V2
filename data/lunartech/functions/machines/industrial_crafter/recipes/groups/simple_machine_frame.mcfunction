@@ -1,8 +1,6 @@
-#region DOCUMENTATION
 #from machines/industrial_crafter/recipes/main
 #as @s[nbt={Item:{tag:{simple_machine_frame:1}}}]
 #at @s
-#endregion
 
 execute if entity @e[tag=!restrict,nbt={Item:{tag:{steel_sheet:1}}},distance=..1,scores={count=4..}] run function lunartech:machines/industrial_crafter/recipes/advanced_machine_frame
 execute if entity @e[tag=!restrict,nbt={Item:{tag:{iron_sheet:1}}},distance=..1,scores={count=4..}] run function lunartech:machines/industrial_crafter/recipes/air_compressor

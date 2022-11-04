@@ -1,8 +1,6 @@
-#region DOCUMENTATION
 #from machines/industrial_crafter/recipes/advanced_circuit_board
 #as @s[nbt={Item:{id:"minecraft:observer"}}]
 #at @s
-#endregion
 
 tag @s add one
 

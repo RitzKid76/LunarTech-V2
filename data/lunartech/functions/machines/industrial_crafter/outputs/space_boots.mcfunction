@@ -1,8 +1,6 @@
-#region DOCUMENTATION
 #from machines/industrial_crafter/recipes/space_boots
 #as @s[nbt={Item:{id:"minecraft:white_wool:}}]
 #at @s
-#endregion
 
 tag @s add four
 

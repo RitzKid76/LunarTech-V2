@@ -1,8 +1,6 @@
-#region DOCUMENTATION
 #from machines/industrial_crafter/recipes/rubber_tubing
 #as @s[nbt={Item:{id:"minecraft:string"}}]
 #at @s
-#endregion
 
 tag @s add three
 

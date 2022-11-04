@@ -1,8 +1,6 @@
-#region DOCUMENTATION
 #from machines/industrial_crafter/recipes/diamond_gear
 #as @s[nbt={Item:{tag:{diamond_gear:1}}}]
 #at @s
-#endregion
 
 tag @s add four
 

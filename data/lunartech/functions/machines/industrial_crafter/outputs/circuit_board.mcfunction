@@ -1,8 +1,6 @@
-#region DOCUMENTATION
 #from machines/industrial_crafter/recipes/circuit_board
 #as @s[nbt={Item:{tag:{copper_sheet:1}}]
 #at @s
-#endregion
 
 tag @s add three
 

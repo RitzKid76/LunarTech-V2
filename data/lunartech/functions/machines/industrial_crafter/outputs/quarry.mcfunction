@@ -1,8 +1,6 @@
-#region DOCUMENTATION
 #from machines/industrial_crafter/recipes/quarry
 #as @s[nbt={Item:{tag:{steel_sheet:1}}}]
 #at @s
-#endregion
 
 tag @s add five
 

@@ -1,8 +1,6 @@
-#region DOCUMENTATION
 #from machines/main
 #as @e[tag=industrial_crafter]
 #at @s
-#endregion
 
 particle minecraft:flame ~ ~1.2 ~ .15 .05 .15 0 2 normal @a
 particle minecraft:dripping_lava ^ ^2.05 ^.37 0 0 0 0 2 normal @a

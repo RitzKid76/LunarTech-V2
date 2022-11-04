@@ -1,8 +1,6 @@
-#region DOCUMENTATION
 #from machines/industrial_crafter/recipes/air_compressor
 #as @s[nbt={Item:{tag:{simple_machine_frame:1}}}]
 #at @s
-#endregion
 
 tag @s add one
 

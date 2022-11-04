@@ -1,8 +1,6 @@
-#region DOCUMENTATION
 #from machines/industrial_crafter/recipes/rocket
 #as @s[nbt={Item:{tag:{heavy_steel_sheet:1}}}]
 #at @s
-#endregion
 
 tag @s add two
 

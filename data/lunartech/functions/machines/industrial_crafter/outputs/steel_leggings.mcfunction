@@ -1,8 +1,6 @@
-#region DOCUMENTATION
 #from machines/industrial_crafter/recipes/steel_leggings
 #as @s[nbt={Item:{tag:{steel_sheet:1}}}]
 #at @s
-#endregion
 
 tag @s add seven
 

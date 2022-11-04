@@ -1,8 +1,6 @@
-#region DOCUMENTATION
 #from machines/industrial_crafter/recipes/rubber_tree_tap
 #as @s[nbt={Item:{id:"minecraft:iron_nugget"}}]
 #at @s
-#endregion
 
 tag @s add one
 

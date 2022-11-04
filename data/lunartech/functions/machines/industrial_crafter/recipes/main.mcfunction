@@ -1,8 +1,6 @@
-#region DOCUMENTATION
 #from machines/industrial_crafter/main
 #as @s[tag=snapped_item,tag=!restrict]
 #at @s
-#endregion
 
 execute if entity @s[nbt={Item:{tag:{drum_opener:1}}}] run function lunartech:machines/industrial_crafter/recipes/groups/drum_opener
 execute if entity @s[nbt={Item:{tag:{empty_drum:1}}}] run function lunartech:machines/industrial_crafter/recipes/groups/empty_drum

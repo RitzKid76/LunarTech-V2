@@ -1,8 +1,6 @@
-#region DOCUMENTATION
 #from machines/industrial_crafter/recipes/main
 #as @s[nbt={Item:{tag:{empty_drum:1}}}]
 #at @s
-#endregion
 
 execute if entity @e[tag=!restrict,nbt={Item:{tag:{steel_sheet:1}}},distance=..1,scores={count=6..}] run function lunartech:machines/industrial_crafter/recipes/empty_module
 execute if entity @e[tag=!restrict,nbt={Item:{tag:{steel_sheet:1}}},distance=..1,scores={count=2..}] run function lunartech:machines/industrial_crafter/recipes/oxygen_tank

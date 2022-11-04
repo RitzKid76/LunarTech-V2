@@ -1,8 +1,6 @@
-#region DOCUMENTATION
 #from machines/industrial_crafter/recipes/creosote_oil_drum
 #as @s[nbt={Item:{tag:{empty_drum:1}}}]
 #at @s
-#endregion
 
 tag @s add one
 

@@ -1,8 +1,6 @@
-#region DOCUMENTATION
 #from machines/industrial_crafter/recipes/steel_anchor
 #as @s[nbt={Item:{tag:{steel_ingot:1}}}]
 #at @s
-#endregion
 
 tag @s add five
 

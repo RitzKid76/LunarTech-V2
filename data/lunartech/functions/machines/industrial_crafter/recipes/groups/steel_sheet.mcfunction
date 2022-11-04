@@ -1,8 +1,6 @@
-#region DOCUMENTATION
 #from machines/industrial_crafter/recipes/main
 #as @s[nbt={Item:{tag:{steel_sheet:1}}}]
 #at @s
-#endregion
 
 execute if entity @s[scores={count=2..}] run function lunartech:machines/industrial_crafter/recipes/space_chestplate
 execute if entity @s[scores={count=2..}] run function lunartech:machines/industrial_crafter/recipes/space_leggings

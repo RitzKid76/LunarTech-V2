@@ -1,8 +1,6 @@
-#region DOCUMENTATION
 #from machines/industrial_crafter/recipes/simple_machine_frame
 #as @s[nbt={Item:{tag:{iron_sheet:1}}}]
 #at @s
-#endregion
 
 tag @s add four
 

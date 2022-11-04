@@ -1,8 +1,6 @@
-#region DOCUMENTATION
 #from machines/industrial_crafter/recipes/chainsaw
 #as @s[nbt={Item:{id:"minecraft:chain"}}]
 #at @s
-#endregion
 
 tag @s add four
 
