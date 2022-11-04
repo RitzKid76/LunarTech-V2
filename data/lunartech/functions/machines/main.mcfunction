@@ -12,6 +12,7 @@ execute as @e[tag=oxygenator] at @s if entity @a[distance=..20] run function lun
 execute as @e[tag=pump_jack] at @s if entity @a[distance=..20] run function lunartech:machines/pump_jack/main
 execute as @e[tag=quarry] at @s if entity @a[distance=..20] run function lunartech:machines/quarry/main
 execute as @e[tag=refinery] at @s if entity @a[distance=..20] run function lunartech:machines/refinery/main
+execute as @e[tag=water_recycler] at @s if entity @a[distance=..20] run function lunartech:machines/water_recycler/main
 
 tag @e[tag=crafting_busy] remove crafting_busy
 tag @e[tag=snappable_item] remove snappable_item
