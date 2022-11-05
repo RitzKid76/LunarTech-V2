@@ -6,6 +6,7 @@ execute as @e[tag=air_compressor] at @s if entity @a[distance=..20] run function
 execute as @e[tag=coke_oven] at @s if entity @a[distance=..20] run function lunartech:machines/coke_oven/main
 execute as @e[tag=cooking_station] at @s if entity @a[distance=..20] run function lunartech:machines/cooking_station/main
 execute as @e[tag=dark_enchanter] at @s if entity @a[distance=..20] run function lunartech:machines/dark_enchanter/main
+execute as @e[tag=launch_pad] at @s if entity @a[distance=..20] run function lunartech:machines/launch_pad/main
 execute as @e[tag=industrial_crafter] at @s if entity @a[distance=..20] run function lunartech:machines/industrial_crafter/main
 execute as @e[tag=metal_press] at @s if entity @a[distance=..20] run function lunartech:machines/metal_press/main
 execute as @e[tag=molten_forge] at @s if entity @a[distance=..20] run function lunartech:machines/molten_forge/main
