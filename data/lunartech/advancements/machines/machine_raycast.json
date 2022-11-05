@@ -1,16 +1,15 @@
 {
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:tick",
-        "conditions": {
-          "player": {
-            "nbt": "{SelectedItem:{tag:{EntityTag:{Tags:[\"spawn\"]}}}}"
-          }
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "nbt": "{SelectedItem:{tag:{EntityTag:{Tags:[\"spawn\"]}}}}"
         }
       }
-    },
-    "rewards": {
-        "function": "lunartech:events/player/spawn_raycast"
     }
+  },
+  "rewards": {
+    "function": "lunartech:events/player/spawn_raycast"
   }
-  
+}
