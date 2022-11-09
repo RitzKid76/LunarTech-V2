@@ -1,4 +1,4 @@
-#from machines/industrial_crafter/recipes/drum_opener
+#from ../recipes/drum_opener
 #as @s[nbt={Item:{id:"minecraft:iron_ingot"}}]
 #at @s
 

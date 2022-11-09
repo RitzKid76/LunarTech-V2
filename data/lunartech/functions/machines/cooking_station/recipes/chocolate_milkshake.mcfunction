@@ -1,4 +1,4 @@
-#from machines/cooking_station/recipes/groups/sugar
+#from ./groups/sugar
 #as @s[nbt={Item:{id:"minecraft:sugar"}}]
 #at @s
 

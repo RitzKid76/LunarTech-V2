@@ -1,4 +1,4 @@
-#from events/item/main
+#from ./main
 #as @e[type=item,nbt={Item:{Count:1b}}]
 #at @s
 

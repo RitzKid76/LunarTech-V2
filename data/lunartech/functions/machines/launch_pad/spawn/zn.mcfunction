@@ -1,4 +1,4 @@
-#from machines/launch_pad/spawn/main
+#from ./main
 #as @s[tag=spawn_launch_pad]
 #at @s
 

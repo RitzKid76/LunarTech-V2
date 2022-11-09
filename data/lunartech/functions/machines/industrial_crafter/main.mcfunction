@@ -1,4 +1,4 @@
-#from machines/main
+#from ../main
 #as @e[tag=industrial_crafter]
 #at @s
 

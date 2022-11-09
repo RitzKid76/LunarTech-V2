@@ -1,4 +1,4 @@
-#from machines/refinery/kill/main
+#from ../kill/main
 #as @e[tag=refinery]
 #at @s
 

@@ -1,4 +1,5 @@
-#from machines/air_compressor/main
-#as @s[tag=snapped_item,tag=!restrict]
+#from ../main
+#as @e[tag=snapped_item]
 #at @s
 
+function lunartech:machines/fuel/recipe

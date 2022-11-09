@@ -1,4 +1,4 @@
-#from machines/pump_jack/kill/main
+#from ./main
 #as @e[tag=pump_jack]
 #at @s
 

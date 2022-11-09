@@ -1,4 +1,4 @@
-#from machines/pulverizer/spawn/main
+#from ./main
 #as @s[tag=spawn_pulverizer]
 #at @s
 

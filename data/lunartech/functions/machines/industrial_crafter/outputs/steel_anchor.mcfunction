@@ -1,4 +1,4 @@
-#from machines/industrial_crafter/recipes/steel_anchor
+#from ../recipes/steel_anchor
 #as @s[nbt={Item:{tag:{steel_ingot:1}}}]
 #at @s
 

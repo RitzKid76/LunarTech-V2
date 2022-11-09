@@ -1,4 +1,4 @@
-#from machines/oxygenator/main
+#from ../main
 #as @e[tag=oxygenator]
 #at @s
 

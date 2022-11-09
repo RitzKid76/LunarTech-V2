@@ -1,4 +1,4 @@
-#from machines/industrial_crafter/recipes/pump_jack
+#from ../recipes/pump_jack
 #as @s[nbt={Item:{id:"minecraft:chain"}}]
 #at @s
 

@@ -4,10 +4,13 @@
 
 advancement revoke @s only lunartech:machines/machine_raycast
 
-function lunartech:machines/particle_raycast/main
-execute as @e[tag=machine_spawn_raycast] run function lunartech:events/entity/rotation_check
+scoreboard players reset @e[tag=machine_spawn_raycast] count
+kill @e[tag=machine_spawn_raycast]
 
-execute if entity @s[nbt={SelectedItem:{tag:{EntityTag:{Tags:["spawn_air_compressor"]}}}}] as @e[tag=machine_spawn_raycast,tag=found_block] at @s align xyz positioned ~.5 ~ ~.5 run function lunartech:machines/air_compressor/spawn/outline/particles
+function lunartech:machines/particle_raycast/main
+execute as @e[tag=machine_spawn_raycast] run function lunartech:tools/rotation_check
+
+execute if entity @s[nbt={SelectedItem:{tag:{EntityTag:{Tags:["spawn_air_compressor"]}}}}] run function lunartech:events/player/spawn_raycast/air_compressor
 execute if entity @s[nbt={SelectedItem:{tag:{EntityTag:{Tags:["spawn_coke_oven"]}}}}] as @e[tag=machine_spawn_raycast,tag=found_block] at @s align xyz positioned ~.5 ~ ~.5 run function lunartech:machines/coke_oven/spawn/outline/particles
 execute if entity @s[nbt={SelectedItem:{tag:{EntityTag:{Tags:["spawn_dark_enchanter"]}}}}] as @e[tag=machine_spawn_raycast,tag=found_block] at @s align xyz positioned ~.5 ~ ~.5 run function lunartech:machines/dark_enchanter/spawn/outline/particles
 execute if entity @s[nbt={SelectedItem:{tag:{EntityTag:{Tags:["spawn_launch_pad"]}}}}] as @e[tag=machine_spawn_raycast,tag=found_block] at @s align xyz positioned ~.5 ~ ~.5 run function lunartech:machines/launch_pad/spawn/outline/particles
@@ -20,5 +23,7 @@ execute if entity @s[nbt={SelectedItem:{tag:{EntityTag:{Tags:["spawn_quarry"]}}}
 execute if entity @s[nbt={SelectedItem:{tag:{EntityTag:{Tags:["spawn_refinery"]}}}}] as @e[tag=machine_spawn_raycast,tag=found_block] at @s align xyz positioned ~.5 ~ ~.5 run function lunartech:machines/refinery/spawn/outline/particles
 execute if entity @s[nbt={SelectedItem:{tag:{EntityTag:{Tags:["spawn_water_recycler"]}}}}] as @e[tag=machine_spawn_raycast,tag=found_block] at @s align xyz positioned ~.5 ~ ~.5 run function lunartech:machines/water_recycler/spawn/outline/particles
 
-scoreboard players reset @e[tag=machine_spawn_raycast] count
-kill @e[tag=machine_spawn_raycast]
+execute store result score @e[tag=machine_spawn_raycast] fuel run data get entity @s SelectedItem.tag.fuel
+
+#FIX https://bugs.mojang.com/browse/MC-257321
+execute as @e[tag=machine_spawn_raycast] at @s run tp @s ~ ~-.25 ~

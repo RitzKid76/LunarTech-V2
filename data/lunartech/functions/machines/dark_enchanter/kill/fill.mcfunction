@@ -1,4 +1,4 @@
-#from machines/dark_enchanter/spawn/main
+#from ../spawn/main
 #as @e[tag=spawn_dark_enchanter]
 #at @s
 

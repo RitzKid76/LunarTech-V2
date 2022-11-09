@@ -1,4 +1,4 @@
-#from machines/refinery/spawn/main
+#from ./main
 #as @s[tag=spawn_refinery]
 #at @s
 

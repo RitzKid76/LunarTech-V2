@@ -1,4 +1,4 @@
-#from machines/industrial_crafter/recipes/circuit_board
+#from ../recipes/circuit_board
 #as @s[nbt={Item:{tag:{copper_sheet:1}}]
 #at @s
 

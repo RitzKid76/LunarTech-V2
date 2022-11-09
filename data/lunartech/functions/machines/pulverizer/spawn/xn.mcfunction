@@ -1,4 +1,4 @@
-#from machines/pulverizer/kill/main
+#from ../kill/main
 #as @e[tag=pulverizer]
 #at @s
 

@@ -1,4 +1,4 @@
-#from machines/launch_pad/kill/main
+#from ../kill/main
 #as @e[tag=launch_pad]
 #at @s
 

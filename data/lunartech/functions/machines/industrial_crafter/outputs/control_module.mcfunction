@@ -1,4 +1,4 @@
-#from machines/industrial_crafter/recipes/control_module
+#from ../recipes/control_module
 #as @s[nbt={Item:{tag:{empty_module:1}}}]
 #at @s
 

@@ -1,4 +1,4 @@
-#from machines/particle_raycast/main
+#from ./main
 #as @e[tag=machine_spawn_raycast]
 #at @s
 

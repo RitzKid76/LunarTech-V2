@@ -1,4 +1,4 @@
-#from machines/industrial_crafter/recipes/steel_helmet
+#from ../recipes/steel_helmet
 #as @s[nbt={Item:{taag:{steel_sheet:1}}}]
 #at @s
 

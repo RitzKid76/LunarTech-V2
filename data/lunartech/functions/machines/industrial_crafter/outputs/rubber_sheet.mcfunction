@@ -1,4 +1,4 @@
-#from machines/industrial_crafter/recipes/rubber_sheet
+#from ../recipes/rubber_sheet
 #as @s[nbt={Item:{tag:{bottle_of_creosote_oil:1}}}]
 #at @s
 

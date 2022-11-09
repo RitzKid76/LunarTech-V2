@@ -1,4 +1,4 @@
-#from machines/pump_jack/main
+#from ../main
 #as @s[tag=snapped_item,tag=!restrict]
 #at @s
 

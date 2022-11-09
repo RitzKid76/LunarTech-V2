@@ -1,4 +1,4 @@
-#from machines/industrial_crafter/recipes/quarry_freeze_upgrade
+#from ../recipes/quarry_freeze_upgrade
 #as @s[nbt={Item:{tag:{steel_sheet:1}}}]
 #at @s
 

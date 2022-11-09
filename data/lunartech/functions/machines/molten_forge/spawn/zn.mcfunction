@@ -1,4 +1,4 @@
-#from machines/molten_forge/spawn/main
+#from ./main
 #as @s[tag=spawn_molten_forge]
 #at @s
 

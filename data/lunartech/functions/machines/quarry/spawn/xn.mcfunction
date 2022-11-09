@@ -1,4 +1,4 @@
-#from machines/quarry/kill/main
+#from ../kill/main
 #as @e[tag=quarry]
 #at @s
 

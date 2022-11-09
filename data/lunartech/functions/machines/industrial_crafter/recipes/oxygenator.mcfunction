@@ -1,4 +1,4 @@
-#from machines/industrial_crafter/recipes/groups/steel_sheet
+#from ./groups/steel_sheet
 #as @s[nbt={Item:{tag:{steel_sheet:1}}}]
 #at @s
 

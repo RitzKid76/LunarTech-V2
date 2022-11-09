@@ -1,4 +1,4 @@
-#from machines/industrial_crafter/recipes/launch_pad
+#from ../recipes/launch_pad
 #as @s[nbt={Item:{tag:{steel_sheet:1}}}]
 #at @s
 

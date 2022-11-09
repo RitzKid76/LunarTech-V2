@@ -1,4 +1,4 @@
-#from machines/industrial_crafter/recipes/chainsaw
+#from ../recipes/chainsaw
 #as @s[nbt={Item:{id:"minecraft:chain"}}]
 #at @s
 

@@ -1,4 +1,4 @@
-#from machines/cooking_station/main
+#from ./main
 #as @e[tag=cooking_station]
 #at @s
 

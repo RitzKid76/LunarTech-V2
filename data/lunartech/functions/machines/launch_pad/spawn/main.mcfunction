@@ -4,8 +4,8 @@
 
 function lunartech:machines/launch_pad/count_volume
 
-execute if score @s[tag=Z-] count matches 1400 run function lunartech:machines/launch_pad/spawn/zn
-execute if score @s[tag=Z+] count matches 1400 run function lunartech:machines/launch_pad/spawn/zp
-execute if score @s[tag=X-] count matches 1400 run function lunartech:machines/launch_pad/spawn/xn
-execute if score @s[tag=X+] count matches 1400 run function lunartech:machines/launch_pad/spawn/xp
-execute unless score @s count matches 1400 run function lunartech:items/launch_pad
+execute if score @s[tag=Z-] count = #launch_pad count run function lunartech:machines/launch_pad/spawn/zn
+execute if score @s[tag=Z+] count = #launch_pad count run function lunartech:machines/launch_pad/spawn/zp
+execute if score @s[tag=X-] count = #launch_pad count run function lunartech:machines/launch_pad/spawn/xn
+execute if score @s[tag=X+] count = #launch_pad count run function lunartech:machines/launch_pad/spawn/xp
+execute unless score @s count = #launch_pad count run function lunartech:items/launch_pad

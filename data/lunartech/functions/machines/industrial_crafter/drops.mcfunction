@@ -1,4 +1,4 @@
-#from machines/industrial_crafter/kill
+#from ./kill
 #as @e[tag=industrial_crafter]
 #at @s
 

@@ -1,4 +1,4 @@
-#from machines/cooking_station/recipes/honey_glazed_ham
+#from ../recipes/honey_glazed_ham
 #as @s[nbt={Item:{id:"minecraft:porkchop"}}]
 #at @s
 

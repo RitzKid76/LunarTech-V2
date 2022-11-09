@@ -1,4 +1,4 @@
-#from machines/industrial_crafter/recipes/molten_forge
+#from ../recipes/molten_forge
 #as @s[nbt={Item:{tag:{simple_machine_frame:1}}}]
 #at @s
 

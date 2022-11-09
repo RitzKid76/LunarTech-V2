@@ -1,4 +1,4 @@
-#from events/main
+#from ../main
 #as @e[type=item]
 #at @s
 

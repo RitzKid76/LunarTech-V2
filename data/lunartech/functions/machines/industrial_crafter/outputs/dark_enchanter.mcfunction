@@ -1,4 +1,4 @@
-#from machines/industrial_crafter/recipes/dark_enchanter
+#from ../recipes/dark_enchanter
 #as @s[nbt={Item:{id:"minecraft:enchanting_table"}}]
 #at @s
 

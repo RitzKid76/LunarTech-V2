@@ -1,4 +1,4 @@
-#from machines/metal_press/main
+#from ../main
 #as @e[tag=metal_press]
 #at @s
 

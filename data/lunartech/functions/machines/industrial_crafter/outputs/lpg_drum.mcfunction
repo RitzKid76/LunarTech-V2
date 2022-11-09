@@ -1,4 +1,4 @@
-#from machines/industrial_crafter/recipes/lpg_drum
+#from ../recipes/lpg_drum
 #as @s[nbt={Item:{tag:{empty_drum:1}}}]
 #at @s
 

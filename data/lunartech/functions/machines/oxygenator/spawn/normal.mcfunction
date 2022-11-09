@@ -1,4 +1,4 @@
-#from machines/oxygenator/kill/main
+#from ../kill/main
 #as @e[tag=oxygenator]
 #at @s
 

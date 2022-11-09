@@ -1,4 +1,4 @@
-#from machines/coke_oven/kill/main
+#from ../kill/main
 #as @e[tag=coke_oven]
 #at @s
 

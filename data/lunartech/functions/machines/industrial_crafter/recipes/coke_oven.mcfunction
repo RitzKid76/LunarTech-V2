@@ -1,4 +1,4 @@
-#from machines/industrial_crafter/recipes/main
+#from ./main
 #as @s[nbt={Item:{tag:{coke_oven_brick:1}}}]
 #at @s
 

@@ -1,6 +1,6 @@
-#from main
-#as Server
-#at Server
+#from MAIN
+#as SERVER
+#at SERVER
 
 execute as @e[tag=cooking_station] at @s if entity @a[distance=..20] run function lunartech:machines/cooking_station/main
 execute as @e[tag=industrial_crafter] at @s if entity @a[distance=..20] run function lunartech:machines/industrial_crafter/main

@@ -1,4 +1,4 @@
-#from machines/MACHINE/spawn/outline/can_spawn
+#from ../MACHINE/spawn/outline/can_spawn
 #as @e[tag=machine_spawn_raycast]
 #at @s
 

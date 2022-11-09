@@ -1,4 +1,4 @@
-#from machines/industrial_crafter/recipes/space_boots
+#from ../recipes/space_boots
 #as @s[nbt={Item:{id:"minecraft:white_wool:}}]
 #at @s
 

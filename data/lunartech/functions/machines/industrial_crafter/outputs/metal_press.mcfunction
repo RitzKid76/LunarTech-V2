@@ -1,4 +1,4 @@
-#from machines/industrial_crafter/recipes/metal_press
+#from ../recipes/metal_press
 #as @s[nbt={Item:{id:"minecraft:iron_block"}}]
 #at @s
 

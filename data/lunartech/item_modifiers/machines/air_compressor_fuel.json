@@ -1,0 +1,28 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": [
+      [
+        {
+          "text": "Air Compressor",
+          "color": "#93A5AB",
+          "italic": false
+        },
+        {
+          "text": " - ",
+          "color": "#CCCCCC",
+          "italic": false
+        },
+        {
+          "score": {
+            "name": "*",
+            "objective": "fuel"
+          },
+          "color": "#707070",
+          "italic": false
+        }
+      ]
+    ]
+  }
+]

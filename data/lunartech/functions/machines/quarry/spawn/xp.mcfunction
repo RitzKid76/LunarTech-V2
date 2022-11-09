@@ -1,4 +1,4 @@
-#from machines/quarry/spawn/main
+#from ./main
 #as @s[tag=spawn_quarry]
 #at @s
 

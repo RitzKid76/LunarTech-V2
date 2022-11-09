@@ -1,4 +1,4 @@
-#from machines/industrial_crafter/recipes/spool_of_wire
+#from ../recipes/spool_of_wire
 #as @s[nbt={Item:{tag:{rubber_sheet:1}}}]
 #at @s
 

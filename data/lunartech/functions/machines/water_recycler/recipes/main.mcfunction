@@ -1,4 +1,4 @@
-#from machines/water_recycler/main
+#from ../main
 #as @s[tag=snapped_item,tag=!restrict]
 #at @s
 

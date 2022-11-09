@@ -1,4 +1,4 @@
-#from machines/industrial_crafter/recipes/rubber_ball
+#from ../recipes/rubber_ball
 #as @s[nbt={Iten:{id:"minecraft:slime_ball"}}]
 #at @s
 

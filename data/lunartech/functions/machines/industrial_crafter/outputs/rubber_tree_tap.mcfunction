@@ -1,4 +1,4 @@
-#from machines/industrial_crafter/recipes/rubber_tree_tap
+#from ../recipes/rubber_tree_tap
 #as @s[nbt={Item:{id:"minecraft:iron_nugget"}}]
 #at @s
 

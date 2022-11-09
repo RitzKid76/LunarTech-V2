@@ -1,4 +1,4 @@
-#from machines/coke_oven/spawn/main
+#from ./main
 #as @s[tag=spawn_coke_oven]
 #at @s
 

@@ -1,4 +1,4 @@
-#from machines/industrial_crafter/recipes/space_chestplate
+#from ../recipes/space_chestplate
 #as @s[nbt={Item:{tag:{steel_sheet:1}}}]
 #at @s
 

@@ -1,4 +1,4 @@
-#from machines/refinery/main
+#from ../main
 #as @e[tag=refinery]
 #at @s
 

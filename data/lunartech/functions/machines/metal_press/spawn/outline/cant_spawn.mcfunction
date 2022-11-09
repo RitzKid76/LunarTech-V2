@@ -1,4 +1,4 @@
-#from machines/metal_press/spawn/outline/particles
+#from ./particles
 #as @e[tag=machine_spawn_raycast]
 #at @s
 

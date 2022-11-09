@@ -1,4 +1,4 @@
-#from machines/MACHINE/outputs/ANY
+#from ./MACHINE/outputs/ANY
 #as @e[tag=snapped_item]
 #at @s
 

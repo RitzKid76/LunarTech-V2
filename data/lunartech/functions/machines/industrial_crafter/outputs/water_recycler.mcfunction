@@ -1,4 +1,4 @@
-#from machines/industrial_crafter/recipes/water_recycler
+#from ../recipes/water_recycler
 #as @s[nbt={Item:{tag:{simple_machine_frame:1}}}]
 #at @s
 

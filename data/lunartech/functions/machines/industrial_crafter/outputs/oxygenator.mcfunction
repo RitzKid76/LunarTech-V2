@@ -1,4 +1,4 @@
-#from machines/industrial_crafter/recipes/oxygenator
+#from ../recipes/oxygenator
 #as @s[nbt={Item:{tag:{steel_sheet:1}}}]
 #at @s
 

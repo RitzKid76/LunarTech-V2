@@ -1,4 +1,4 @@
-#from machines/industrial_crafter/recipes/quarry_marker
+#from ../recipes/quarry_marker
 #as @s[nbt={Item:{id:"minecraft:redstone_torch"}}]
 #at @s
 

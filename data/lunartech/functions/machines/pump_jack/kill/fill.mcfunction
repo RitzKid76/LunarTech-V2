@@ -1,4 +1,4 @@
-#from machines/pump_jack/spawn/main
+#from ../spawn/main
 #as @e[tag=spawn_pump_jack]
 #at @s
 

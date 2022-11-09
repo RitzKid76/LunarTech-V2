@@ -1,4 +1,4 @@
-#from machines/industrial_crafter/recipes/fuel_module
+#from ../recipes/fuel_module
 #as @s[nbt={Item:{tag:{empty_module:1}}}]
 #at @s
 

@@ -1,4 +1,4 @@
-#from machines/air_compressor/spawn/main
+#from ./spawn/main
 #as @e[tag=spawn_air_compressor]
 #at @s
 

@@ -1,4 +1,4 @@
-#from machines/industrial_crafter/recipes/rocket_fuel
+#from ../recipes/rocket_fuel
 #as @s[nbt={Item:{id:"minecraft:coal_block"}}]
 #at @s
 

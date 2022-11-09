@@ -1,4 +1,4 @@
-#from machines/cooking_station/recipes/main
+#from ./main
 #as @s[nbt={Item:{id:"minecraft:porkchop"}}]
 #at @s
 

@@ -1,4 +1,4 @@
-#from machines/industrial_crafter/recipes/simple_machine_frame
+#from ../recipes/simple_machine_frame
 #as @s[nbt={Item:{tag:{iron_sheet:1}}}]
 #at @s
 

@@ -1,4 +1,4 @@
-#from machines/industrial_crafter/recipes/rubber_tubing
+#from ../recipes/rubber_tubing
 #as @s[nbt={Item:{id:"minecraft:string"}}]
 #at @s
 

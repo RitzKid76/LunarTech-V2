@@ -1,4 +1,4 @@
-#from machines/industrial_crafter/recipes/space_helmet
+#from ../recipes/space_helmet
 #as @s[nbt={Item:{id:"minecraft:glass"}}]
 #at @s
 

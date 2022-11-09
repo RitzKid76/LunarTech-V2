@@ -1,4 +1,4 @@
-#from machines/water_recycler/kill/main
+#from ../kill/main
 #as @e[tag=water_recycler]
 #at @s
 

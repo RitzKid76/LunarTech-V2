@@ -1,4 +1,4 @@
-#from machines/industrial_crafter/recipes/empty_canister
+#from ../recipes/empty_canister
 #as @s[nbt={Item:{tag::{iron_sheet:1}}}]
 #at @s
 

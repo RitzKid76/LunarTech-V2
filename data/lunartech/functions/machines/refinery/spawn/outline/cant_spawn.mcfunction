@@ -1,4 +1,4 @@
-#from machines/refinery/spawn/outline/particles
+#from ./particles
 #as @e[tag=machine_spawn_raycast]
 #at @s
 

@@ -1,4 +1,4 @@
-#from machines/dark_enchanter/kill/main
+#from ../kill/main
 #as @e[tag=dark_enchanter]
 #at @s
 
