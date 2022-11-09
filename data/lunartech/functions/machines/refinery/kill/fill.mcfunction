@@ -14,3 +14,5 @@ kill @e[type=item,distance=..5,nbt={Item:{id:"minecraft:gray_banner",Count:1b}},
 kill @e[type=item,distance=..5,nbt={Item:{id:"minecraft:brewing_stand",Count:1b}},limit=1]
 kill @e[type=item,distance=..5,nbt={Item:{id:"minecraft:polished_blackstone_pressure_plate",Count:1b}},limit=1]
 kill @e[type=item,distance=..5,nbt={Item:{id:"minecraft:blast_furnace",Count:1b}},limit=1]
+
+execute as @e[type=item,distance=..5,nbt={Item:{id:"minecraft:blast_furnace"}}] run data modify entity @s Item.tag.display.Name set value "Blast Furnace"

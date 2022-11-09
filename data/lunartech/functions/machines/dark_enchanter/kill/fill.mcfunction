@@ -19,3 +19,5 @@ kill @e[type=item,distance=..7,nbt={Item:{id:"minecraft:lightning_rod",Count:1b}
 kill @e[type=item,distance=..7,nbt={Item:{id:"minecraft:deepslate_brick_stairs",Count:1b}},limit=1]
 kill @e[type=item,distance=..7,nbt={Item:{id:"minecraft:enchanting_table",Count:1b}},limit=1]
 kill @e[type=item,distance=..7,nbt={Item:{id:"minecraft:blast_furnace",Count:1b}},limit=1]
+
+execute as @e[type=item,distance=..5,nbt={Item:{id:"minecraft:blast_furnace"}}] run data modify entity @s Item.tag.display.Name set value "Blast Furnace"

@@ -12,3 +12,5 @@ kill @e[type=item,distance=..5,nbt={Item:{id:"minecraft:chiseled_deepslate",Coun
 kill @e[type=item,distance=..5,nbt={Item:{id:"minecraft:andesite_wall",Count:1b}},limit=1]
 kill @e[type=item,distance=..5,nbt={Item:{id:"minecraft:iron_bars",Count:1b}},limit=1]
 kill @e[type=item,distance=..5,nbt={Item:{id:"minecraft:furnace",Count:1b}},limit=1]
+
+execute as @e[type=item,distance=..5,nbt={Item:{id:"minecraft:furnace"}}] run data modify entity @s Item.tag.display.Name set value "Furnace"
