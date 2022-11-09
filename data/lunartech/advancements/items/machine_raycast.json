@@ -10,6 +10,6 @@
     }
   },
   "rewards": {
-    "function": "lunartech:events/player/spawn_raycast/main"
+    "function": "lunartech:events/player/spawn_raycast"
   }
 }

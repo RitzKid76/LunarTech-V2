@@ -8,5 +8,4 @@ execute if score @s[tag=Z-] count = #air_compressor count run function lunartech
 execute if score @s[tag=Z+] count = #air_compressor count run function lunartech:machines/air_compressor/spawn/zp
 execute if score @s[tag=X-] count = #air_compressor count run function lunartech:machines/air_compressor/spawn/xn
 execute if score @s[tag=X+] count = #air_compressor count run function lunartech:machines/air_compressor/spawn/xp
-
 execute unless score @s count = #air_compressor count run function lunartech:items/air_compressor
