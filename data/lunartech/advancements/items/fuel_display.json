@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "nbt": "{SelectedItem:{tag:{has_fuel:1}}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "lunartech:events/player/set_fuel"
+  }
+}

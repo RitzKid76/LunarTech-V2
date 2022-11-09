@@ -6,6 +6,7 @@ scoreboard players set #air_compressor_max fuel 512
 scoreboard players set #air_compressor fuel 8
 scoreboard players set #air_compressor count 24
 scoreboard players set #air_compressor_air count 0
+scoreboard players set #air_compressor_cooldown count 20
 
 scoreboard players set #coke_oven_max fuel 512
 scoreboard players set #coke_oven fuel 1

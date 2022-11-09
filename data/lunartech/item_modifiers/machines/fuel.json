@@ -5,7 +5,8 @@
     "name": [
       [
         {
-          "text": "Air Compressor",
+          "nbt":"SelectedItem.tag.default_name",
+          "entity":"@s",
           "color": "#93A5AB",
           "italic": false
         },

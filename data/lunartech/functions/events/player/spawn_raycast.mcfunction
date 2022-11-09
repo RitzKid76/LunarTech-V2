@@ -1,8 +1,8 @@
-#from advancements
+#from advancements/items/machine_raycast
 #as @a[nbt={SelectedItem:{tag:{EntityTag:{Tags:["spawn"]}}}}]
 #at @s
 
-advancement revoke @s only lunartech:machines/machine_raycast
+advancement revoke @s only lunartech:items/machine_raycast
 
 scoreboard players reset @e[tag=machine_spawn_raycast] count
 kill @e[tag=machine_spawn_raycast]
@@ -10,7 +10,7 @@ kill @e[tag=machine_spawn_raycast]
 function lunartech:machines/particle_raycast/main
 execute as @e[tag=machine_spawn_raycast] run function lunartech:tools/rotation_check
 
-execute if entity @s[nbt={SelectedItem:{tag:{EntityTag:{Tags:["spawn_air_compressor"]}}}}] run function lunartech:events/player/spawn_raycast/air_compressor
+execute if entity @s[nbt={SelectedItem:{tag:{EntityTag:{Tags:["spawn_air_compressor"]}}}}] as @e[tag=machine_spawn_raycast,tag=found_block] at @s align xyz positioned ~.5 ~ ~.5 run function lunartech:machines/air_compressor/spawn/outline/particles
 execute if entity @s[nbt={SelectedItem:{tag:{EntityTag:{Tags:["spawn_coke_oven"]}}}}] as @e[tag=machine_spawn_raycast,tag=found_block] at @s align xyz positioned ~.5 ~ ~.5 run function lunartech:machines/coke_oven/spawn/outline/particles
 execute if entity @s[nbt={SelectedItem:{tag:{EntityTag:{Tags:["spawn_dark_enchanter"]}}}}] as @e[tag=machine_spawn_raycast,tag=found_block] at @s align xyz positioned ~.5 ~ ~.5 run function lunartech:machines/dark_enchanter/spawn/outline/particles
 execute if entity @s[nbt={SelectedItem:{tag:{EntityTag:{Tags:["spawn_launch_pad"]}}}}] as @e[tag=machine_spawn_raycast,tag=found_block] at @s align xyz positioned ~.5 ~ ~.5 run function lunartech:machines/launch_pad/spawn/outline/particles

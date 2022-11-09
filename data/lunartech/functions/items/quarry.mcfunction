@@ -1,3 +1,1 @@
-summon item ~ ~ ~ {Tags:["restrict"],Item:{id:"minecraft:armor_stand",Count:1b,tag:{display:{Name:'{"text":"Quarry","color":"#93A5AB","italic":false}'},machine:1,quarry:1,fuel:0,EntityTag:{id:"minecraft:armor_stand",Invisible:1b,Tags:["spawn","spawn_quarry"]},CustomModelData:10000003}}}
-execute as @e[tag=!non_stackable,nbt={Item:{tag:{quarry:1}}},distance=...5] store result score @s var run data get entity @s Item.tag.non_stackable
-execute as @e[tag=!non_stackable,nbt={Item:{tag:{quarry:1}}},distance=...5,scores={var=0}] run function lunartech:tools/make_non_stackable
+summon item ~ ~ ~ {Tags:["restrict"],Item:{id:"minecraft:armor_stand",Count:1b,tag:{display:{Name:'{"text":"Quarry","color":"#93A5AB","italic":false}'},machine:1,quarry:1,fuel:0,has_fuel:1,non_stackable:0,default_name:"Quarry",EntityTag:{id:"minecraft:armor_stand",Invisible:1b,Tags:["spawn","spawn_quarry"]},CustomModelData:10000003}}}
