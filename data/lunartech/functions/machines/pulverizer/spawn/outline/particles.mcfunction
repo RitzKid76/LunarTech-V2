@@ -1,4 +1,4 @@
-#from events/player/spawn_raycast
+#from events/player/spawn_machine_raycast
 #as @e[tag=machine_spawn_raycast]
 #at @s
 

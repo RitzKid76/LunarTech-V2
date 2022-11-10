@@ -1,5 +1,5 @@
 #from advancements/items/machine_raycast
-#as @a[nbt={SelectedItem:{tag:{EntityTag:{Tags:["spawn"]}}}}]
+#as @a[nbt={SelectedItem:{tag:{machine:1}}}]
 #at @s
 
 advancement revoke @s only lunartech:items/machine_raycast
