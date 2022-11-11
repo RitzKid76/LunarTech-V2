@@ -1,4 +1,4 @@
-#from ../fuel
+#from ../main
 #as @e[tag=air_compressor]
 #at @s
 
