@@ -27,6 +27,8 @@ scoreboard players set #metal_press_air count 10
 scoreboard players set #molten_forge count 48
 scoreboard players set #molten_forge_air count 10
 
+scoreboard players set #oxygenator_max fuel 24000
+scoreboard players set #oxygenator fuel 1
 scoreboard players set #oxygenator count 36
 scoreboard players set #oxygenator_air count 0
 
