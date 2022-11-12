@@ -1,0 +1,14 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "salt": 42069,
+        "separation": 0,
+        "spacing": 32
+    },
+    "structures": [
+        {
+            "structure": "lunartech:rubber_tree",
+            "weight": 1
+        }
+    ]
+}

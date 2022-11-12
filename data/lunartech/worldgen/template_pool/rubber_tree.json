@@ -1,0 +1,15 @@
+{
+    "name": "lunartech:rubber_tree",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "lunartech:rubber_tree",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}
