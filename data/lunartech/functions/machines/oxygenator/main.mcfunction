@@ -2,7 +2,7 @@
 #as @e[tag=oxygenator]
 #at @s
 
-execute positioned ~ ~1 ~ as @e[type=item,nbt={Item:{tag:{lava_drum:1}}},distance=..2] run function lunartech:machines/oxygenator/outputs/fuel
+execute positioned ~ ~1 ~ as @e[type=item,tag=!restrict,nbt={Item:{tag:{lava_drum:1}}},distance=..2] run function lunartech:machines/oxygenator/outputs/fuel
 execute if entity @s[tag=fueled] run function lunartech:machines/oxygenator/state/oxygen/tick
 function lunartech:machines/oxygenator/state/oxygen/radius
 
