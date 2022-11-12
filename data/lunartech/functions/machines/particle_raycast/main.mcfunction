@@ -2,7 +2,7 @@
 #as player
 #at ANY
 
-execute at @s run summon marker ~ ~1.63 ~ {Tags:["machine_spawn_raycast"]}
+execute anchored eyes run summon marker ^ ^ ^ {Tags:["machine_spawn_raycast"]}
 data modify entity @e[tag=machine_spawn_raycast,limit=1] Rotation set from entity @s Rotation
 scoreboard players set @e[tag=machine_spawn_raycast] count 60
 
