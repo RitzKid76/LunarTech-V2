@@ -1,0 +1,11 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {}
+        }
+    },
+    "rewards": {
+        "function": "lunartech:events/player/click_tile_entity/main"
+    }
+}
