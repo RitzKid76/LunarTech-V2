@@ -1,4 +1,4 @@
-#from ./main
+#from ../main
 #as SERVER
 #at SERVER
 
