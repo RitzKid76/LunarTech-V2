@@ -4,6 +4,7 @@
 
 execute if entity @s[tag=spawn_machine] run function lunartech:events/spawn/machines
 
-execute if entity @s[tag=spawn_quarry_marker] run function lunartech:objects/quarry_marker/spawn
+execute if entity @s[tag=spawn_quarry_marker] run function lunartech:objects/quarry_marker/spawn/main
+execute if entity @s[tag=spawn_rubber_tree_tap] run function lunartech:objects/rubber_tree_tap/spawn/main
 
 kill @s
