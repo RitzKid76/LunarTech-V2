@@ -7,5 +7,3 @@ function lunartech:objects/rubber_tree_tap/spawn/cant_spawn
 execute unless entity @s[tag=cant_spawn] run function lunartech:objects/rubber_tree_tap/spawn/attempt
 
 execute if entity @s[tag=cant_spawn] run function lunartech:items/rubber_tree_tap
-
-say e
