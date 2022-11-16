@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:armor_stand",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Rubber Ball\",\"color\":\"#902825\",\"italic\":false}'},rubber_ball:1,EntityTag:{id:\"minecraft:armor_stand\",Invisible:1b,Tags:[\"spawn\",\"spawn_rubber_ball\",\"red\"]},CustomModelData:10000047}"
+              },
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

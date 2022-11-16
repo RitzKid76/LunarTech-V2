@@ -3,7 +3,10 @@
 #at SERVER
 
 scoreboard objectives add count dummy
+
 scoreboard objectives add var dummy
+scoreboard objectives add var1 dummy
+scoreboard objectives add var2 dummy
 
 scoreboard objectives add fuel dummy
 function lunartech:objects/machines/constants
