@@ -2,6 +2,8 @@
 #as @e[tag=rubber_ball]
 #at @s
 
+execute if block ~ ~-1 ~ hopper run function lunartech:objects/rubber_ball/kill
+
 effect give @s slowness 99999 10 true
 effect give @s invisibility 99999 10 true
 effect give @s jump_boost 99999 99 true
